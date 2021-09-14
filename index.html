@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="https://60376bfd5435040017722533.mockapi.io/form" id="form" onsubmit="sConsole(event)" method="POST" enctype="multipart/form-data" class="ask-form">
+    <form action="https://60376bfd5435040017722533.mockapi.io/form" id="form" method="POST" enctype="multipart/form-data" class="ask-form">
         <h1 class="ask-form__title">
             Задать вопрос
         </h1>
@@ -28,19 +28,5 @@
         </div>
         <button class="button" type="submit">Отправить запрос</button>
     </form>
-    <script>
-        function sConsole(event) {
-         event.preventDefault();
-        var name = document.getElementById("name");
-        var phone = document.getElementById("phone");
-        var email = document.getElementById("email");
-
-         console.log(name.value);
-         console.log(phone.value);
-         console.log(email.value);
-  
-}
-
-    </script>
 </body>
 </html>
